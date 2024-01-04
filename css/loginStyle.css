@@ -1,0 +1,231 @@
+body 
+{
+margin:0;
+padding: 0;
+background-image: url(../img/login.JPG);
+background-size:cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.container 
+{
+border: 2px solid;
+border-radius: 1cap;
+width: 320px;
+background: white;
+padding: 20px;
+margin: 8% auto 0;
+text-align: center;
+}
+.mx-auto
+{
+	color: #1c8adb;
+	margin: 30px;
+}
+.input_box
+{
+	border-radius: 20px;
+	padding: 8px;
+	margin: 10px 0;
+	width: 90%;
+	border: 1px solid #999;
+}
+.btn
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 98%;
+	border:none;
+	color: white;
+	background: #1c8adb;
+	cursor: pointer;
+	font-size: 15px;
+
+}
+.registar
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 70%;
+	border:none;
+	color: white;
+	background: #199319;
+	cursor: pointer;
+	font-size: 15px;
+
+}
+hr 
+{
+	margin-top: 20px;
+	width: 80%;
+}
+.or
+{ 
+	
+	margin: -20px auto 10px ;
+	width: 30px;
+	background: white;
+
+
+}
+img
+{
+	width: 70px;
+	margin-top: -60px;
+}
+
+
+
+
+.fh5co-cata {
+  background: #cbcbcb;
+}
+.fh5co-cata .top-menu {
+  padding: 28px 0 0 0;
+}
+.fh5co-cata #fh5co-logo {
+  font-size: 20px;
+  margin: 0;
+  padding: 4px 0;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: "Inconsolata", Arial, sans-serif;
+}
+.fh5co-cata #fh5co-logo a span {
+  color: #DD356E;
+}
+.fh5co-cata a {
+  padding: 5px 10px;
+  color: #000;
+}
+@media screen and (max-width: 768px) {
+  .fh5co-cata .menu-1 {
+    display: none;
+  }
+}
+.fh5co-cata ul {
+  padding: 0;
+  margin: 5px 0 0 0;
+}
+.fh5co-cata ul li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: inline;
+}
+.fh5co-cata ul li a {
+  font-size: 18px;
+  padding: 30px 15px;
+  color: rgba(0, 0, 0, 0.7);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.fh5co-cata ul li a:hover, .fh5co-cata ul li a:focus, .fh5co-cata ul li a:active {
+  color: black;
+}
+.fh5co-cata ul li.has-dropdown {
+  position: relative;
+}
+.fh5co-cata ul li.has-dropdown .dropdown {
+  width: 140px;
+  -webkit-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 33px -9px rgba(0, 0, 0, 0.75);
+  z-index: 1002;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  text-align: left;
+  background: #000;
+  padding: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
+}
+.fh5co-cata ul li.has-dropdown .dropdown:before {
+  bottom: 100%;
+  left: 40px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #000;
+  border-width: 8px;
+  margin-left: -8px;
+}
+.fh5co-cata ul li.has-dropdown .dropdown li {
+  display: block;
+  margin-bottom: 7px;
+}
+.fh5co-cata ul li.has-dropdown .dropdown li:last-child {
+  margin-bottom: 0;
+}
+.fh5co-cata ul li.has-dropdown .dropdown li a {
+  padding: 2px 0;
+  display: block;
+  color: #999999;
+  line-height: 1.2;
+  text-transform: none;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+.fh5co-cata ul li.has-dropdown .dropdown li a:hover {
+  color: #fff;
+}
+.fh5co-cata ul li.has-dropdown:hover a, .fh5co-cata ul li.has-dropdown:focus a {
+  color: #000;
+}
+.fh5co-cata ul li.btn-cta a {
+  padding: 30px 0px !important;
+  color: #fff;
+}
+.fh5co-cata ul li.btn-cta a span {
+  background: #dd356e;
+  padding: 4px 10px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  border-radius: 100px;
+}
+.fh5co-cata ul li.btn-cta a:hover span {
+  -webkit-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
+}
+.fh5co-cata ul li.active > a {
+  color: #000 !important;
+  position: relative;
+}
+.fh5co-cata ul li.active > a:after {
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  right: 0;
+  content: '';
+  width: 30px;
+  height: 2px;
+  background: #DD356E;
+  margin: 0 auto;
+}
+.toggle-password {
+     
+  cursor: pointer;
+  color: #007BFF;
+}

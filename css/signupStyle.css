@@ -1,0 +1,87 @@
+
+* {box-sizing: border-box}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    background-image: url(../img/login.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+label{
+   font-size: 15px;
+}
+input[type=text]:focus, input[type=file]:focus {
+   background-color: #ddd;
+   outline: none;
+}
+
+.formContainer {
+   background-color: white;
+   
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   width: 500px;
+   border-radius: 10px;
+}
+.formContainer h1{
+   text-align: center;
+   padding: 0 0 20px 0;
+   border-bottom: 1px solid silver;
+ }
+
+.formContainer form{
+   padding: 0 20px;
+   box-sizing: border-box;
+}
+
+form .text_field{
+   position: relative;
+    margin: 14px 0px;
+    border-bottom: 2px solid;
+}
+ 
+hr {
+   border: 1px solid #f1f1f1;
+   margin-bottom: 25px;
+}
+button {
+   font-size: 18px;
+   font-weight: bold;
+   background-color: #199319;
+   color: white;
+   padding: 14px 20px;
+  
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   opacity: 0.9;
+}
+button:hover {
+   opacity:1;
+}
+.cancel {
+   padding: 14px 20px;
+   background-color: #ff3d2f;}
+
+.toggle-password {
+      position: absolute;
+      bottom: 25px;
+      right: 5px;
+      cursor: pointer;
+      color: #007BFF;
+  }
+
+ 
